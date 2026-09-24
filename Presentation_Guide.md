@@ -1,10 +1,7 @@
 # Urban Planner - Capstone Presentation Guide
 
-This document is structured to divide the project presentation into four equal parts for a team of 4 members. It includes key speaking points for each member, as well as potential follow-up questions your project guide or evaluator might ask.
 
----
-
-## Member 1: Project Overview & Objectives
+## Project Overview & Objectives
 
 ### Speaking Points
 * **Introduction:** Introduce the team and the project "Urban Planner". 
@@ -20,7 +17,7 @@ This document is structured to divide the project presentation into four equal p
 
 ---
 
-## Member 2: Data Processing & Pipeline Architecture
+## Data Processing & Pipeline Architecture
 
 ### Speaking Points
 * **Data Ingestion:** Our data pipeline handles multiple geographic datasets. We pull data either from local CSV files or dynamically from an AWS S3 bucket using the `boto3` library.
@@ -36,7 +33,7 @@ This document is structured to divide the project presentation into four equal p
 
 ---
 
-## Member 3: Core Metrics & Algorithms
+## Core Metrics & Algorithms
 
 ### Speaking Points
 * **The Air Quality (AQ) Score:** We calculate a composite AQ score by normalizing five different metrics (CO, NO2, O3, SO2, and Aerosol Index). Each pollutant contributes 20% to the final score, where a lower score indicates better air quality.
@@ -54,7 +51,7 @@ This document is structured to divide the project presentation into four equal p
 
 ---
 
-## Member 4: Dashboard & Visualization
+## Dashboard & Visualization
 
 ### Speaking Points
 * **UI Framework:** We built the front-end using Plotly Dash, which allows for pure Python-based reactive web applications.
