@@ -1,0 +1,13 @@
+# Environments
+env/
+venv/
+.env
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+Pickles/__pycache__/
+
+# (Optional) Ignore raw data if it's too large, but since final_df.csv is needed for the dashboard, we will track it.
